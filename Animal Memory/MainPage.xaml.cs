@@ -17,7 +17,7 @@
             PlayAgainButton.IsVisible = false;
             
             List<string> animalEmoji = [
-                "🐓", "🐓", 
+                "🐓", "🐓",
                 "🐇", "🐇", 
                 "🐅", "🐅", 
                 "🐂", "🐂",
@@ -45,7 +45,7 @@
 
             tenthsOfSecondsElapsed++;
 
-            TimeElapsed.Text = "Time elapsed: " +
+            TimeElapsed.Text = "Time elapsed, no pressure: " +
                 (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
 
             if (PlayAgainButton.IsVisible)
